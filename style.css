@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(206, 248, 206);
+}
+
+.meuBolso {
+    text-align: center;
+    font-size: 50px;
+    color: #d9e00a85;
+    margin-top: 3.5px;
+}
+.espace{
+    margin-top: auto;
+}
+.img{
+    background-position: left bottom;
+    width: 500px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+.formulario{
+    width: 250px;
+    border: 1px solid rgba(190, 190, 190, 0.4);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 5px #7aa181;
+
+}
+
+.btn-config{
+    width: 75%;
+    height: 25px;
+    background-color: #79bb90;
+}
+
+.margin-config{
+    margin-bottom: 10px;
+    width: 75%;
+    height: 25px;
+}
+.login{
+    float: right;
+    height: 60px;
+    position:absolute;
+    top: 90px;
+    right:30px;
+
+}
+
+header{
+    min-height: 60px;
+    text-align: center;
+    float: inline-start;
+    background-color: #38774f;
+    padding-top: 20px;
+    margin-top: 3.5px;
+
+}
+
+header > h2{
+   margin-top: 0px; 
+}
+
+.linkconfig{
+    text-decoration: none;
+}
+
+.divConfig{
+    text-align: center;
+
+}
+
+.descri{
+    float: center;
+    text-align: end;
+    width: 450px;
+    font-size: 25px;
+}

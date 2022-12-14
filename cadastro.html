@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div>
+        <header>
+            <h3>Meu Bolso Seguro</h3>
+        </header>
+    </div>
+
+    <div class="cad"><h2>Cadastro</h2></div>
+
+    <div class="conteudo">
+
+        <form>
+            <div id="nome">
+                <h2 class="nome">Nome e Sobrenome</h2>
+                
+                <input class= "primeironome" type="text" nome="primeiro_nome">
+                <label class= "primeirolabel">Nome</label>
+                <input class= "sobrenome" type="text" nome="sobrenome">
+                <label class= "sobrenomelabel">Sobrenome</label>
+                
+                
+            </div>
+
+            <h2 class="codemail">E-mail</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="nome">Telefone com DDD</h2>
+            <input class="codigo" type="text" name="codigo_area">
+            <label class="codigo_area">DDD</label>
+            
+            
+            <input class="number" type="text" name="phone">
+            <label class="numero_telefone">Telefone</label>
+            
+
+            <h2 class="nome">Sexo</h2>
+            <select class="opcoes" name="assunto">
+                <option disabled="disabled" selected="selected">-- Selecione a opção</option>
+                <option>Feminino</option>
+                <option>Masculino</option>
+                <option>Não informar</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+            
+
+
+
+        </form>
+
+    </div>
+</body>
+</html>
